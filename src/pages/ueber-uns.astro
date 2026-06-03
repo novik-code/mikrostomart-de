@@ -1,0 +1,115 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { site } from '../data/site';
+---
+
+<BaseLayout
+  title="Über uns — Dr. Marcin Nowosielski, M.Sc. RWTH Aachen | Zahnarzt Polen"
+  description="Dr. Marcin Nowosielski, M.Sc. RWTH Aachen — deutschsprachiger Zahnarzt und Implantologe in Opole (Polen). Deutscher Hochschulabschluss, Premium-Praxis Mikrostomart, Patienten aus DACH."
+>
+  <div class="container content">
+    <nav class="breadcrumbs"><a href="/">Start</a> · <span>Über uns</span></nav>
+
+    <header>
+      <p class="eyebrow">Ihr behandelnder Zahnarzt</p>
+      <h1>Dr. Marcin Nowosielski, M.Sc. RWTH Aachen</h1>
+      <p class="lead">
+        Zahnarzt und Implantologe mit <strong>deutschem Hochschulabschluss (M.Sc. RWTH Aachen)</strong>,
+        der <strong>fließend Deutsch spricht</strong>. In der Premium-Praxis <strong>Mikrostomart</strong>
+        in Opole behandelt er Patienten aus Deutschland, Österreich und der Schweiz — mit westlicher
+        Qualität zu polnischen Preisen.
+      </p>
+    </header>
+
+    <section>
+      <h2>Warum das wichtig ist</h2>
+      <p>
+        Der häufigste Grund, warum Patienten vor Zahntourismus zurückschrecken, ist die
+        <strong>Sprachbarriere</strong>. Bei uns entfällt sie: Dr. Nowosielski hat in Deutschland
+        studiert (RWTH Aachen) und bespricht Diagnose, Behandlungsoptionen, Risiken und Kosten
+        <strong>persönlich auf Deutsch</strong> — ohne Dolmetscher, ohne Missverständnisse.
+      </p>
+    </section>
+
+    <section>
+      <h2>Qualifikationen</h2>
+      <ul>
+        <li><strong>2007–2013</strong> — Studium der Zahnmedizin, Medizinische Universität Breslau (Wrocław)</li>
+        <li><strong>2013</strong> — Approbation, Mitglied der Ärztekammer Opole</li>
+        <li><strong>2015</strong> — Mitglied der Polnischen Gesellschaft für Endodontie (PTE) und ESE (European Society of Endodontology)</li>
+        <li><strong>2018–2021</strong> — <strong>Master of Science in Lasers in Dentistry, RWTH Aachen</strong> (mit Auszeichnung) — einer der wenigen in Polen mit diesem Titel</li>
+        <li><strong>2020+</strong> — Mitglied der Polnischen Gesellschaft für Implantologie (PSI)</li>
+        <li><strong>2024</strong> — Autor des Fachbuchs <em>„Własny gabinet"</em> (Verlag Czelej)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Behandlungsschwerpunkte</h2>
+      <ul>
+        <li><strong>Implantologie</strong> — Einzelimplantate, All-on-4/6, Sofortimplantation, Knochenaufbau, Sinuslift (Straumann, Nobel Biocare)</li>
+        <li><strong>Mikroskopische Endodontie</strong> — Wurzelbehandlung unter dem Operationsmikroskop (ZEISS)</li>
+        <li><strong>Prothetik</strong> — Kronen, Brücken, festsitzender Zahnersatz auf Implantaten (Zirkon)</li>
+        <li><strong>Ästhetische Zahnheilkunde</strong> — Veneers, Bleaching, Smile Design</li>
+        <li><strong>Laserzahnheilkunde</strong> — Er:YAG / Nd:YAG (Fotona)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Die Praxis Mikrostomart</h2>
+      <p>
+        Premium-Zahnklinik in Opole (ul. Centralna 33a). Ausstattung:
+      </p>
+      <ul>
+        <li>Operationsmikroskop ZEISS</li>
+        <li>CBCT (3D-Röntgen)</li>
+        <li>Intraoralscanner (digitale Abformung)</li>
+        <li>Laser Fotona LightWalker (Er:YAG + Nd:YAG)</li>
+        <li>Computergesteuerte Anästhesie (The Wand) — schmerzarm</li>
+        <li>Implantatsysteme Straumann & Nobel Biocare</li>
+        <li>Sterilisation der Klasse B</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Behandlungsphilosophie</h2>
+      <blockquote>
+        „Präzision ist der Schlüssel zu langlebigen Ergebnissen. Mikroskop, CBCT und digitale
+        Planung sind bei mir Standard, kein Extra. Der Patient hat das Recht, genau zu verstehen,
+        was mit seinen Zähnen geschieht, welche Alternativen es gibt und welche Risiken bestehen —
+        und das auf Deutsch."
+      </blockquote>
+    </section>
+
+    <section>
+      <h2>Für Patienten aus DACH</h2>
+      <p>
+        Wir betreuen regelmäßig Patientinnen und Patienten aus Deutschland, Österreich und der
+        Schweiz. Sprachen: <strong>Deutsch, Englisch, Polnisch</strong>. Anreise nach Opole ca.
+        1,5 Std. von der deutschen Grenze. <a href="/zahntourismus-opole">Anreise & Ablauf →</a>
+      </p>
+    </section>
+
+    <aside class="cta-inline">
+      <h2>Kostenlose Anfrage — direkt beim Zahnarzt</h2>
+      <p>
+        Senden Sie uns Ihre Röntgenbilder oder eine Beschreibung. Sie erhalten eine
+        unverbindliche Einschätzung und einen Kostenvoranschlag — persönlich auf Deutsch.
+      </p>
+      <a class="btn-primary" href={`mailto:${site.clinic.email}`}>Anfrage senden →</a>
+    </aside>
+  </div>
+</BaseLayout>
+
+<style>
+  .content { max-width: 56rem; }
+  .breadcrumbs { font-size: 0.875rem; color: var(--color-muted); margin-bottom: 1.5rem; }
+  .breadcrumbs a { text-decoration: none; }
+  .content header { margin-bottom: 3rem; padding-bottom: 2rem; border-bottom: 1px solid var(--color-border); }
+  .lead { font-size: 1.1875rem; color: var(--color-muted); }
+  .eyebrow { text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.75rem; color: var(--color-accent-dark); margin: 0 0 0.5rem; font-weight: 700; }
+  section { margin: 3rem 0; }
+  blockquote { margin: 1.5rem 0; padding: 1.5rem 2rem; background: var(--color-card); border-left: 4px solid var(--color-accent); font-style: italic; font-size: 1.125rem; color: var(--color-primary); }
+  .cta-inline { background: var(--color-primary); color: white; padding: 2.5rem 2rem; border-radius: 8px; margin-top: 4rem; }
+  .cta-inline h2 { color: var(--color-accent); margin-top: 0; }
+  .cta-inline p { color: #dbe6ee; }
+</style>

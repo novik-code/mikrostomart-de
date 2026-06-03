@@ -1,0 +1,113 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { site } from '../data/site';
+---
+
+<BaseLayout
+  title="All-on-4 in Polen — feste Zähne an einem Tag | Kosten & Ablauf"
+  description="All-on-4 in Polen (Opole) — festsitzender Zahnersatz auf 4 Implantaten, feste Zähne oft am selben Tag, kein zahnloser Zeitraum. Bis zu 60% günstiger als in Deutschland. Deutschsprachig."
+>
+  <div class="container content">
+    <nav class="breadcrumbs"><a href="/">Start</a> · <span>All-on-4 Polen</span></nav>
+
+    <header>
+      <p class="eyebrow">Festsitzender Zahnersatz · Polen</p>
+      <h1>All-on-4 in Polen — feste Zähne, kein zahnloser Zeitraum</h1>
+      <p class="lead">
+        <strong>All-on-4</strong> ist eine feste Brücke auf nur 4 Implantaten pro Kiefer — die
+        Lösung bei Zahnlosigkeit oder vielen nicht erhaltungswürdigen Zähnen. Dank
+        <strong>Sofortbelastung</strong> erhalten Sie feste provisorische Zähne oft schon
+        <strong>am selben Tag</strong>. In Opole zu polnischen Preisen, mit deutschsprachiger Betreuung.
+      </p>
+    </header>
+
+    <section>
+      <h2>Für wen ist All-on-4 geeignet</h2>
+      <ul>
+        <li>Bei <strong>Zahnlosigkeit</strong> (ganzer Kiefer)</li>
+        <li>Bei <strong>vielen nicht erhaltungswürdigen Zähnen</strong></li>
+        <li>Als Alternative zur <strong>herausnehmbaren Prothese</strong> (kein Wackeln, fester Halt)</li>
+        <li>Wenn ein <strong>zahnloser Zeitraum vermieden</strong> werden soll</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>All-on-4 vs. All-on-6</h2>
+      <p>
+        <strong>All-on-4</strong> nutzt 4 Implantate (2 gerade vorne, 2 schräg hinten — so wird
+        oft ein Knochenaufbau vermieden). <strong>All-on-6</strong> verwendet 6 Implantate für
+        zusätzliche Stabilität, vor allem im Oberkiefer mit weicherem Knochen. Was sinnvoll ist,
+        zeigt das CBCT.
+      </p>
+    </section>
+
+    <section>
+      <h2>Ablauf — meist zwei Reisen</h2>
+      <ol>
+        <li><strong>Ferndiagnose</strong> — Röntgenbilder senden, Einschätzung & Kostenvoranschlag auf Deutsch.</li>
+        <li><strong>1. Reise:</strong> CBCT, ggf. Extraktionen, Setzen der Implantate, <strong>feste provisorische Brücke (Sofortbelastung)</strong> — oft am selben Tag.</li>
+        <li><strong>Einheilphase</strong> 3-6 Monate (zu Hause in Deutschland, mit fester provisorischer Brücke).</li>
+        <li><strong>2. Reise:</strong> definitive Brücke — <strong>Vollkonturzirkon, verschraubt</strong>.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Die definitive Versorgung: Zirkon verschraubt</h2>
+      <p>
+        Als endgültige Lösung verwenden wir <strong>monolithisches Zirkon, verschraubt</strong> auf
+        den Implantaten. Vorteile: hohe Festigkeit, natürliche Ästhetik und — weil verschraubt statt
+        zementiert — <strong>abnehmbar zur Wartung</strong>.
+      </p>
+    </section>
+
+    <section>
+      <h2>Was kostet All-on-4 in Polen</h2>
+      <table>
+        <thead><tr><th>Leistung</th><th>Polen (Mikrostomart)</th><th>Deutschland (ca.)</th></tr></thead>
+        <tbody>
+          <tr><td>All-on-4, ein Kiefer (komplett)</td><td>ab 6.000-9.000 €</td><td>12.000-20.000 €</td></tr>
+          <tr><td>All-on-6, ein Kiefer</td><td>ab 8.000-12.000 €</td><td>15.000-25.000 €</td></tr>
+          <tr><td>Beide Kiefer</td><td>ab 12.000-18.000 €</td><td>24.000-40.000 €</td></tr>
+        </tbody>
+      </table>
+      <p style="font-size:0.875rem;color:var(--color-muted)">Richtwerte; verbindlicher Voranschlag nach CBCT. <a href="/zahnersatz-kosten-polen">Kostenübersicht →</a></p>
+    </section>
+
+    <section>
+      <h2>Vorteile von All-on-4</h2>
+      <ul>
+        <li>✅ <strong>Feste Zähne</strong>, kein Wackeln wie bei Prothesen</li>
+        <li>✅ <strong>Kein zahnloser Zeitraum</strong> (Sofortbelastung)</li>
+        <li>✅ <strong>Nur 4 Implantate</strong> — oft ohne aufwändigen Knochenaufbau</li>
+        <li>✅ <strong>Natürliche Ästhetik</strong>, an das Gesicht angepasst</li>
+        <li>✅ Wiederhergestellte <strong>Kaufunktion</strong></li>
+      </ul>
+    </section>
+
+    <section class="cta-box">
+      <h2>All-on-4 Anfrage — kostenlos & auf Deutsch</h2>
+      <p>Senden Sie uns Ihre Röntgenbilder. Sie erhalten eine Einschätzung, ob All-on-4 oder All-on-6 sinnvoll ist, samt Kostenvoranschlag.</p>
+      <p>
+        <a class="btn-primary" href={`mailto:${site.clinic.email}`}>Anfrage senden →</a>
+        &nbsp; <a class="btn-outline" href="/zahnimplantate-polen">Zu den Implantaten</a>
+      </p>
+    </section>
+
+    <hr />
+    <p class="disclaimer-inline"><strong>Hinweis:</strong> Inhalte zu Informationszwecken. Eignung ergibt sich aus individueller Diagnostik (CBCT). Ergebnisse sind individuell.</p>
+  </div>
+</BaseLayout>
+
+<style>
+  .content { max-width: 56rem; }
+  .breadcrumbs { font-size: 0.875rem; color: var(--color-muted); margin-bottom: 1.5rem; }
+  .breadcrumbs a { text-decoration: none; }
+  header { margin-bottom: 2.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--color-border); }
+  .eyebrow { text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.75rem; color: var(--color-accent-dark); font-weight: 700; margin: 0 0 0.5rem; }
+  .lead { font-size: 1.125rem; color: var(--color-muted); }
+  section { margin-bottom: 2.5rem; }
+  .cta-box { background: var(--color-card); padding: 2rem; border-radius: 8px; border-left: 4px solid var(--color-accent); margin: 3rem 0 2rem; }
+  .cta-box h2 { margin-top: 0; }
+  .disclaimer-inline { font-size: 0.8125rem; color: var(--color-muted); border-left: 3px solid var(--color-border); padding-left: 1rem; margin-top: 2rem; }
+  hr { border: none; border-top: 1px solid var(--color-border); margin: 2rem 0; }
+</style>

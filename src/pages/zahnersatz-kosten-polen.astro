@@ -1,0 +1,110 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { site } from '../data/site';
+---
+
+<BaseLayout
+  title="Zahnersatz Polen Kosten — Preisvergleich Deutschland vs. Polen"
+  description="Was kostet Zahnersatz in Polen? Preisvergleich Deutschland vs. Polen für Implantate, All-on-4, Kronen, Veneers. Bis zu 60% Ersparnis — inkl. Reisekosten lohnt es sich. Mikrostomart Opole."
+>
+  <div class="container content">
+    <nav class="breadcrumbs"><a href="/">Start</a> · <span>Kosten & Preise</span></nav>
+
+    <header>
+      <p class="eyebrow">Kosten · Preisvergleich DE/PL</p>
+      <h1>Zahnersatz in Polen — Kosten & Ersparnis im Vergleich</h1>
+      <p class="lead">
+        Zahnbehandlung in Polen kostet bei gleichen Materialien und moderner Technik
+        <strong>oft 40-60% weniger</strong> als in Deutschland. Hier finden Sie einen ehrlichen
+        Preisvergleich — und eine Beispielrechnung, ab wann sich die Reise lohnt.
+      </p>
+    </header>
+
+    <section>
+      <h2>Preisvergleich Deutschland vs. Polen</h2>
+      <table>
+        <thead><tr><th>Leistung</th><th>Polen (Mikrostomart)</th><th>Deutschland (ca.)</th><th>Ersparnis</th></tr></thead>
+        <tbody>
+          <tr><td>Implantat + Zirkonkrone</td><td>1.300-1.900 €</td><td>2.500-3.500 €</td><td>~50%</td></tr>
+          <tr><td>All-on-4 (ein Kiefer)</td><td>6.000-9.000 €</td><td>12.000-20.000 €</td><td>~55%</td></tr>
+          <tr><td>Zirkonkrone</td><td>250-400 €</td><td>600-1.000 €</td><td>~60%</td></tr>
+          <tr><td>Veneer (Keramik)</td><td>350-550 €</td><td>900-1.500 €</td><td>~60%</td></tr>
+          <tr><td>Wurzelbehandlung (Mikroskop)</td><td>150-350 €</td><td>400-900 €</td><td>~55%</td></tr>
+          <tr><td>Sinuslift</td><td>350-700 €</td><td>800-1.500 €</td><td>~55%</td></tr>
+        </tbody>
+      </table>
+      <p style="font-size:0.875rem;color:var(--color-muted)">Richtwerte 2026; verbindlicher Kostenvoranschlag nach Diagnostik (CBCT).</p>
+    </section>
+
+    <section>
+      <h2>Warum ist es in Polen günstiger</h2>
+      <p>Niedrigere Preise bedeuten <strong>nicht</strong> geringere Qualität. Die Gründe sind wirtschaftlich:</p>
+      <ul>
+        <li><strong>Niedrigere Betriebskosten</strong> (Miete, Löhne, Laborkosten in Polen)</li>
+        <li><strong>Gleiche Materialien</strong> (Straumann, Nobel, Zirkon — Weltmarkt)</li>
+        <li><strong>Gleiche Technik</strong> (Mikroskop, CBCT, Digitalscanner)</li>
+      </ul>
+      <p>Sie zahlen weniger für <em>denselben</em> Standard.</p>
+    </section>
+
+    <section>
+      <h2>Rechnet sich die Reise? Beispielrechnung</h2>
+      <p>Beispiel: <strong>All-on-4, ein Kiefer</strong></p>
+      <table>
+        <thead><tr><th>Position</th><th>Betrag</th></tr></thead>
+        <tbody>
+          <tr><td>Behandlung Deutschland</td><td>~15.000 €</td></tr>
+          <tr><td>Behandlung Polen (Mikrostomart)</td><td>~7.500 €</td></tr>
+          <tr><td>Anreise + Übernachtung (2 Reisen)</td><td>~500-900 €</td></tr>
+          <tr><td><strong>Ersparnis nach Reisekosten</strong></td><td><strong>~6.600-7.000 €</strong></td></tr>
+        </tbody>
+      </table>
+      <p>Bei größeren Behandlungen übersteigt die Ersparnis die Reisekosten <strong>um ein Vielfaches</strong>.</p>
+    </section>
+
+    <section>
+      <h2>Kostenerstattung & Krankenkasse</h2>
+      <p>
+        EU-Bürger können sich Behandlungen im EU-Ausland unter bestimmten Bedingungen anteilig
+        erstatten lassen (Richtlinie zur grenzüberschreitenden Gesundheitsversorgung). Die
+        Erstattung richtet sich nach dem deutschen Satz für die jeweilige Leistung — klären Sie
+        die Details vorab mit Ihrer Krankenkasse. Wir stellen Ihnen die nötige
+        <strong>Rechnung und Dokumentation</strong> aus.
+      </p>
+    </section>
+
+    <section>
+      <h2>Transparenz: keine versteckten Kosten</h2>
+      <p>
+        Sie erhalten <strong>vor Behandlungsbeginn</strong> einen schriftlichen Kostenvoranschlag
+        auf Deutsch. Keine „ab"-Preise ohne Obergrenze, keine Überraschungen während der Behandlung.
+      </p>
+    </section>
+
+    <section class="cta-box">
+      <h2>Kostenloser, unverbindlicher Kostenvoranschlag</h2>
+      <p>Senden Sie uns Röntgenbilder oder eine Beschreibung Ihres Anliegens — Sie erhalten einen konkreten Preis auf Deutsch, bevor Sie reisen.</p>
+      <p>
+        <a class="btn-primary" href={`mailto:${site.clinic.email}`}>Kostenvoranschlag anfragen →</a>
+        &nbsp; <a class="btn-outline" href="/zahntourismus-opole">Anreise & Ablauf</a>
+      </p>
+    </section>
+
+    <hr />
+    <p class="disclaimer-inline"><strong>Hinweis:</strong> Preise sind Richtwerte und können variieren. Verbindlich ist der individuelle Kostenvoranschlag nach Untersuchung. Erstattungsfragen klären Sie mit Ihrer Krankenkasse.</p>
+  </div>
+</BaseLayout>
+
+<style>
+  .content { max-width: 56rem; }
+  .breadcrumbs { font-size: 0.875rem; color: var(--color-muted); margin-bottom: 1.5rem; }
+  .breadcrumbs a { text-decoration: none; }
+  header { margin-bottom: 2.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--color-border); }
+  .eyebrow { text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.75rem; color: var(--color-accent-dark); font-weight: 700; margin: 0 0 0.5rem; }
+  .lead { font-size: 1.125rem; color: var(--color-muted); }
+  section { margin-bottom: 2.5rem; }
+  .cta-box { background: var(--color-card); padding: 2rem; border-radius: 8px; border-left: 4px solid var(--color-accent); margin: 3rem 0 2rem; }
+  .cta-box h2 { margin-top: 0; }
+  .disclaimer-inline { font-size: 0.8125rem; color: var(--color-muted); border-left: 3px solid var(--color-border); padding-left: 1rem; margin-top: 2rem; }
+  hr { border: none; border-top: 1px solid var(--color-border); margin: 2rem 0; }
+</style>

@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Seite nicht gefunden" description="404 — Diese Seite existiert nicht auf mikrostomart.de" noindex={true}>
+  <div class="container error-page">
+    <p class="big-number">404</p>
+    <h1>Seite nicht gefunden</h1>
+    <p class="lead">Die aufgerufene Adresse führt zu keiner Seite. Versuchen Sie eine der folgenden:</p>
+    <ul class="nav-suggestions">
+      <li><a href="/">Startseite</a></li>
+      <li><a href="/zahnimplantate-polen">Zahnimplantate Polen</a></li>
+      <li><a href="/all-on-4-polen">All-on-4 Polen</a></li>
+      <li><a href="/zahnersatz-kosten-polen">Kosten & Preise</a></li>
+      <li><a href="/zahntourismus-opole">Anreise & Ablauf</a></li>
+      <li><a href="/blog">Blog</a></li>
+    </ul>
+    <p>Kostenlose Anfrage → <a href="mailto:gabinet@mikrostomart.pl">gabinet@mikrostomart.pl</a></p>
+  </div>
+</BaseLayout>
+
+<style>
+  .error-page { max-width: 36rem; text-align: center; padding: 4rem 1.5rem; }
+  .big-number { font-family: var(--font-display); font-size: 8rem; color: var(--color-accent); line-height: 1; margin: 0; opacity: 0.6; font-weight: 800; }
+  .error-page h1 { font-size: 2rem; margin-top: 0; }
+  .lead { font-size: 1.125rem; color: var(--color-muted); }
+  .nav-suggestions { list-style: none; padding: 0; display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; margin: 2rem 0; }
+  .nav-suggestions a { font-weight: 600; }
+</style>

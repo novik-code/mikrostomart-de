@@ -1,0 +1,204 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { site } from '../data/site';
+import { getCollection } from 'astro:content';
+import { categoryMeta, formatDate } from '../utils/categories';
+
+const allPosts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+const latestPosts = allPosts.slice(0, 4);
+---
+
+<BaseLayout
+  title="Zahnarzt in Polen — Zahnimplantate & Zahnersatz | Mikrostomart Opole"
+  description="Deutschsprachiger Zahnarzt in Polen (Opole): Zahnimplantate, All-on-4, Zahnersatz zu polnischen Preisen, westliche Qualität. Dr. Marcin Nowosielski, M.Sc. RWTH Aachen. Bis zu 60% sparen, nur ~1,5 Std. von der Grenze."
+>
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Zahnarzt in Polen · Opole · für Patienten aus DACH</p>
+      <h1>Hochwertiger Zahnersatz in Polen — deutschsprachig & bis zu 60% günstiger</h1>
+      <p class="lead">
+        In der Praxis <strong>Mikrostomart</strong> in Opole behandelt Sie
+        <strong>{site.author.honorificPrefix} {site.author.name}, {site.author.honorificSuffix} RWTH Aachen</strong> —
+        ein Zahnarzt mit deutschem Hochschulabschluss, der <strong>fließend Deutsch spricht</strong>.
+        Zahnimplantate, All-on-4 und kompletter Zahnersatz auf westlichem Qualitätsniveau,
+        zu polnischen Preisen. Opole liegt nur <strong>ca. 1,5 Stunden</strong> von der deutschen Grenze.
+      </p>
+      <div class="hero-cta">
+        <a class="btn-primary" href={`mailto:${site.clinic.email}`}>Kostenlose Anfrage senden →</a>
+        <a class="btn-outline" href="/zahnersatz-kosten-polen">Kosten ansehen</a>
+      </div>
+      <ul class="trust-row">
+        <li><strong>M.Sc. RWTH Aachen</strong><span>deutscher Abschluss</span></li>
+        <li><strong>Deutschsprachig</strong><span>Beratung auf Deutsch</span></li>
+        <li><strong>bis −60%</strong><span>vs. Deutschland</span></li>
+        <li><strong>~1,5 Std.</strong><span>von der Grenze</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="container intro-grid">
+    <article>
+      <h2>Warum Zahnbehandlung in Polen</h2>
+      <p>
+        Identische Materialien (Straumann, Nobel Biocare), moderne Technik (Mikroskop,
+        CBCT, Digitalscanner) — aber <strong>deutlich niedrigere Preise</strong> als in
+        Deutschland. Eine kurze Anreise macht die Ersparnis lohnenswert.
+      </p>
+      <a href="/zahnersatz-kosten-polen">Kostenvergleich DE/PL →</a>
+    </article>
+    <article>
+      <h2>Der entscheidende Unterschied: Sprache</h2>
+      <p>
+        Viele Zahnreisen scheitern an der Verständigung. Bei uns spricht der <strong>behandelnde
+        Zahnarzt selbst fließend Deutsch</strong> (M.Sc. RWTH Aachen) — keine Übersetzer,
+        keine Missverständnisse bei wichtigen Entscheidungen.
+      </p>
+      <a href="/ueber-uns">Über Dr. Nowosielski →</a>
+    </article>
+    <article>
+      <h2>Feste Zähne — auch an einem Tag</h2>
+      <p>
+        Bei Zahnlosigkeit oder nicht erhaltungswürdigen Zähnen: <strong>All-on-4</strong> mit
+        Sofortbelastung — feste provisorische Zähne oft noch am selben Tag, kein zahnloser
+        Zeitraum.
+      </p>
+      <a href="/all-on-4-polen">All-on-4 in Polen →</a>
+    </article>
+  </section>
+
+  <section class="container pillar-links">
+    <h2>Unsere Leistungen für Patienten aus DACH</h2>
+    <div class="pillar-grid">
+      <a href="/zahnimplantate-polen" class="pillar">
+        <span class="pillar-num">01</span>
+        <h3>Zahnimplantate Polen</h3>
+        <p>Einzelimplantate, Straumann & Nobel Biocare, Sofortimplantation, Knochenaufbau.</p>
+      </a>
+      <a href="/all-on-4-polen" class="pillar">
+        <span class="pillar-num">02</span>
+        <h3>All-on-4 / All-on-6</h3>
+        <p>Festsitzender Zahnersatz auf 4-6 Implantaten. Feste Zähne, kein zahnloser Zeitraum.</p>
+      </a>
+      <a href="/zahnersatz-kosten-polen" class="pillar">
+        <span class="pillar-num">03</span>
+        <h3>Kosten & Ersparnis</h3>
+        <p>Preisvergleich Deutschland vs. Polen. Konkrete Kostenbeispiele, bis zu 60% sparen.</p>
+      </a>
+      <a href="/zahntourismus-opole" class="pillar">
+        <span class="pillar-num">04</span>
+        <h3>Anreise & Ablauf</h3>
+        <p>Wie die Behandlung organisiert wird — Anreise, Termine, Garantie, Nachsorge.</p>
+      </a>
+      <a href="/blog" class="pillar">
+        <span class="pillar-num">05</span>
+        <h3>Ratgeber</h3>
+        <p>Wissen rund um Zahnersatz im Ausland — Vorteile, Risiken, häufige Fragen.</p>
+      </a>
+      <a href="/ueber-uns" class="pillar">
+        <span class="pillar-num">06</span>
+        <h3>Über uns</h3>
+        <p>Dr. Marcin Nowosielski — M.Sc. RWTH Aachen, deutschsprachig, Premium-Praxis.</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="container">
+      <h2>Bis zu 60% sparen — bei deutscher Verständigung</h2>
+      <p>
+        Schicken Sie uns Ihre <strong>Röntgenbilder oder eine kurze Beschreibung</strong> Ihres
+        Anliegens. Sie erhalten eine unverbindliche Einschätzung und einen Kostenvoranschlag —
+        auf Deutsch, kostenlos.
+      </p>
+      <a class="btn-primary" href={`mailto:${site.clinic.email}`}>Kostenlose Anfrage →</a>
+    </div>
+  </section>
+
+  {latestPosts.length > 0 && (
+    <section class="container latest-posts">
+      <header class="section-header">
+        <h2>Aus dem Ratgeber</h2>
+        <a class="see-all" href="/blog">Alle Artikel →</a>
+      </header>
+      <ul class="post-grid">
+        {latestPosts.map((post) => (
+          <li>
+            <article>
+              <p class="post-meta">
+                <span class="category">{categoryMeta[post.data.category].label}</span>
+                <time datetime={post.data.pubDate.toISOString()}>{formatDate(post.data.pubDate)}</time>
+              </p>
+              <h3><a href={`/blog/${post.id}`}>{post.data.title}</a></h3>
+              <p>{post.data.description}</p>
+            </article>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <section class="container author-box">
+    <div>
+      <p class="eyebrow">Ihr behandelnder Zahnarzt</p>
+      <h2>{site.author.honorificPrefix} {site.author.name}, {site.author.honorificSuffix}</h2>
+      <p>
+        Zahnarzt und Implantologe, <strong>M.Sc. RWTH Aachen</strong> (mit Auszeichnung 2021) —
+        einer der wenigen in Polen mit diesem Titel. Studium in Deutschland, <strong>fließend
+        Deutsch</strong>. Autor des Fachbuchs <em>„Własny gabinet"</em> (Czelej 2024).
+        Schwerpunkte: Implantologie, mikroskopische Endodontie, Prothetik, ästhetische
+        Zahnheilkunde. Behandelt Patienten aus Deutschland, Österreich und der Schweiz.
+      </p>
+      <p><a class="btn-outline" href="/ueber-uns">Mehr über Dr. Nowosielski →</a></p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero { background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light)); color: white; padding: 4rem 0 3.5rem; margin-bottom: 3rem; }
+  .hero h1 { color: white; font-size: 2.85rem; margin-top: 0.5rem; line-height: 1.15; }
+  .hero .lead { font-size: 1.1875rem; color: #dbe6ee; max-width: 60rem; margin: 1rem 0 2rem; }
+  .hero .lead a { color: var(--color-accent); }
+  .hero .eyebrow { text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.8125rem; color: var(--color-accent); margin: 0; font-weight: 700; }
+  .hero-cta { display: flex; gap: 1rem; flex-wrap: wrap; }
+  .hero .btn-outline { color: var(--color-accent) !important; border-color: var(--color-accent); }
+  .hero .btn-outline:hover { background: var(--color-accent); color: var(--color-primary) !important; }
+  .trust-row { list-style: none; padding: 0; margin: 2.5rem 0 0; display: flex; gap: 2.5rem; flex-wrap: wrap; }
+  .trust-row li { display: flex; flex-direction: column; }
+  .trust-row strong { font-size: 1.25rem; color: var(--color-accent); }
+  .trust-row span { font-size: 0.8125rem; color: #b9cad6; }
+
+  .intro-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-bottom: 4rem; }
+  .intro-grid article { background: var(--color-card); padding: 1.75rem; border-radius: 6px; border-top: 3px solid var(--color-accent); box-shadow: 0 1px 3px rgba(20, 66, 92, 0.06); }
+  .intro-grid article h2 { margin-top: 0; font-size: 1.25rem; }
+
+  .pillar-links { margin-bottom: 4rem; }
+  .pillar-links h2 { margin-bottom: 1.5rem; }
+  .pillar-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; }
+  .pillar { background: var(--color-card); padding: 1.5rem; border-radius: 6px; text-decoration: none; color: var(--color-fg); border: 1px solid var(--color-border); transition: all 0.2s; display: block; }
+  .pillar:hover { border-color: var(--color-accent); transform: translateY(-2px); box-shadow: 0 4px 12px rgba(20, 66, 92, 0.08); }
+  .pillar-num { display: inline-block; font-size: 0.75rem; font-weight: 700; color: var(--color-accent); letter-spacing: 0.1em; }
+  .pillar h3 { margin: 0.5rem 0 0.5rem; font-size: 1.0625rem; color: var(--color-primary); }
+  .pillar p { font-size: 0.9375rem; color: var(--color-muted); margin: 0; }
+
+  .cta-band { background: var(--color-primary); color: white; padding: 3rem 0; margin-bottom: 4rem; }
+  .cta-band h2 { color: white; }
+  .cta-band p { color: #dbe6ee; max-width: 56rem; font-size: 1.0625rem; }
+
+  .section-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem; }
+  .section-header h2 { margin: 0; }
+  .see-all { font-weight: 600; text-decoration: none; }
+  .latest-posts { margin-bottom: 4rem; }
+  .post-grid { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; }
+  .post-grid > li { background: var(--color-card); padding: 1.5rem; border-radius: 6px; border-left: 3px solid var(--color-accent); box-shadow: 0 1px 3px rgba(20, 66, 92, 0.06); }
+  .post-grid h3 { margin: 0.5rem 0 0.75rem; font-size: 1.125rem; }
+  .post-grid h3 a { text-decoration: none; }
+  .post-meta { font-size: 0.75rem; color: var(--color-muted); text-transform: uppercase; letter-spacing: 0.06em; margin: 0; display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap; }
+  .category { color: var(--color-accent-dark); font-weight: 700; }
+  .post-grid p { font-size: 0.9375rem; margin-bottom: 0; }
+
+  .author-box { background: var(--color-card); padding: 2.5rem; border-radius: 8px; border-left: 4px solid var(--color-primary); margin-bottom: 4rem; }
+  .author-box .eyebrow { text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.75rem; color: var(--color-accent-dark); font-weight: 700; margin: 0; }
+  .author-box h2 { margin-top: 0.5rem; }
+</style>

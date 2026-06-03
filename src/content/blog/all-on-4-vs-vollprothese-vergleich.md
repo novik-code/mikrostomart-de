@@ -1,7 +1,7 @@
 ---
 title: 'All-on-4 vs. Vollprothese — Vergleich für DACH-Patienten'
 description: 'All-on-4 oder herausnehmbare Vollprothese? Vergleich von Halt, Komfort, Kosten, Haltbarkeit. Warum festsitzender Zahnersatz auf Implantaten oft die bessere Wahl ist. Mikrostomart Opole.'
-pubDate: 2026-05-14
+pubDate: 2026-05-06
 category: all-on-x
 tags: [all-on-4, vollprothese, vergleich, zahnersatz]
 draft: false

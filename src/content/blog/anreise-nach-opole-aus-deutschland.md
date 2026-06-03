@@ -1,7 +1,7 @@
 ---
 title: 'Anreise nach Opole aus Deutschland — Auto, Flug, Übernachtung'
 description: 'So reisen Sie nach Opole für Ihre Zahnbehandlung: Anfahrt mit dem Auto über die A4, Flug nach Breslau/Kattowitz, Übernachtung, Fahrzeiten ab Berlin, Dresden, Görlitz. Praktischer Reiseguide.'
-pubDate: 2026-05-18
+pubDate: 2026-05-12
 category: zahntourismus
 tags: [anreise, opole, reise, a4, flug]
 draft: false

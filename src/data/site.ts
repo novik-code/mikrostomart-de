@@ -23,7 +23,7 @@ export const site = {
   // Praxis / Behandlungsort
   clinic: {
     name: 'Mikrostomart',
-    legalName: 'Mikrostomart — Premium-Zahnklinik Opole',
+    legalName: 'ELMAR Sp. z o.o.',
     url: 'https://mikrostomart.pl',
     bookingUrl: 'https://mikrostomart.pl/rezerwacja',
     contactUrl: 'https://mikrostomart.pl/kontakt',

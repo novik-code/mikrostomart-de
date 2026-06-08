@@ -1,7 +1,7 @@
 ---
 title: 'Behandlung auf Deutsch in Opole — keine Sprachbarriere'
 description: 'Zahnbehandlung in Polen auf Deutsch: Beratung, Behandlungsplan und Aufklärung in Ihrer Sprache. Warum die deutschsprachige Kommunikation für DACH-Patienten den Unterschied macht. Mikrostomart Opole.'
-pubDate: 2026-06-06
+pubDate: 2026-05-21
 category: ratgeber
 tags: [deutsch, sprachbarriere, kommunikation, dach]
 draft: false
@@ -53,6 +53,6 @@ Hochwertige Zahnbehandlung zu polnischen Preisen — **und das alles auf Deutsch
 
 ---
 
-**Autor:** Dr. Marcin Nowosielski, M.Sc. RWTH Aachen — Praxis Mikrostomart Opole.
+**Über den Autor:** Marcin Nowosielski (Zahnarzt), M.Sc. RWTH Aachen — Endodontie & Implantologie.
 
 **Hinweis:** Inhalte zu Informationszwecken.

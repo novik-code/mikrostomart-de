@@ -1,7 +1,7 @@
 ---
 title: 'Anreise nach Opole aus Deutschland — Auto, Flug, Übernachtung'
 description: 'So reisen Sie nach Opole für Ihre Zahnbehandlung: Anfahrt mit dem Auto über die A4, Flug nach Breslau/Kattowitz, Übernachtung, Fahrzeiten ab Berlin, Dresden, Görlitz. Praktischer Reiseguide.'
-pubDate: 2026-05-12
+pubDate: 2026-03-13
 category: zahntourismus
 tags: [anreise, opole, reise, a4, flug]
 draft: false
@@ -77,6 +77,6 @@ Opole ist aus Deutschland bequem erreichbar — ~1,5 Std. ab der Grenze über di
 
 ---
 
-**Autor:** Dr. Marcin Nowosielski, M.Sc. RWTH Aachen — Praxis Mikrostomart Opole.
+**Autor:** ZA Marcin Nowosielski, M.Sc. RWTH Aachen — Implantologie & Vollbogen-Versorgung, Praxis Mikrostomart Opole.
 
 **Hinweis:** Fahrzeiten sind Richtwerte. Inhalte zu Informationszwecken.

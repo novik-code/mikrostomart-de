@@ -1,7 +1,7 @@
 ---
 title: 'Knochenaufbau & Sinuslift — Implantat trotz wenig Kieferknochen'
 description: 'Zu wenig Kieferknochen für ein Implantat? Knochenaufbau und Sinuslift machen es trotzdem möglich. Methoden, Ablauf, Kosten in Polen. Auch bei jahrelanger Zahnlosigkeit. Mikrostomart Opole.'
-pubDate: 2026-05-18
+pubDate: 2026-03-26
 category: zahnimplantate
 tags: [knochenaufbau, sinuslift, augmentation, implantat]
 draft: false
@@ -66,6 +66,6 @@ Zu wenig Knochen ist fast nie ein endgültiges „Nein" zum Implantat. Mit Knoch
 
 ---
 
-**Autor:** Dr. Marcin Nowosielski, M.Sc. RWTH Aachen — Implantologe, Praxis Mikrostomart Opole.
+**Über den Autor:** Marcin Nowosielski (Zahnarzt), M.Sc. RWTH Aachen — Implantologe.
 
 **Hinweis:** Eignung ergibt sich aus individueller Diagnostik (CBCT). Inhalte zu Informationszwecken.

@@ -1,7 +1,7 @@
 ---
 title: 'Wurzelbehandlung unter dem Mikroskop — Zahn erhalten statt ziehen'
 description: 'Mikroskopische Wurzelbehandlung in Polen — Zahn erhalten statt ziehen. Warum das Mikroskop die Erfolgsquote auf 90-95% steigert, Ablauf, Kosten. Auch bei Wiederbehandlung. Mikrostomart Opole.'
-pubDate: 2026-05-27
+pubDate: 2026-04-16
 category: behandlungen
 tags: [wurzelbehandlung, endodontie, mikroskop, zahnerhalt]
 draft: false
@@ -66,6 +66,6 @@ Eine mikroskopische Wurzelbehandlung kann Ihren **eigenen Zahn erhalten** — sc
 
 ---
 
-**Autor:** Dr. Marcin Nowosielski, M.Sc. RWTH Aachen — Endodontie & Implantologie, Praxis Mikrostomart Opole.
+**Autor:** ZA Marcin Nowosielski, M.Sc. RWTH Aachen — Implantologie & Vollbogen-Versorgung.
 
 **Hinweis:** Prognose und Eignung ergeben sich aus individueller Diagnostik. Inhalte zu Informationszwecken.

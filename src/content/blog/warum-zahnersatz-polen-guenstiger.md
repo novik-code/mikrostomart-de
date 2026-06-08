@@ -1,7 +1,7 @@
 ---
 title: 'Warum ist Zahnersatz in Polen günstiger? (ohne Qualitätsverlust)'
 description: 'Warum kostet Zahnersatz in Polen 40-60% weniger als in Deutschland? Die echten Gründe — niedrigere Betriebskosten, gleiche Materialien. Warum günstiger nicht schlechter bedeutet.'
-pubDate: 2026-05-21
+pubDate: 2026-04-03
 category: kosten
 tags: [kosten, preisvergleich, ersparnis, qualitaet]
 draft: false
@@ -74,6 +74,6 @@ Zahnersatz in Polen ist günstiger, weil die **Betriebskosten niedriger** sind �
 
 ---
 
-**Autor:** Dr. Marcin Nowosielski, M.Sc. RWTH Aachen — Praxis Mikrostomart Opole.
+**Autor:** ZA Marcin Nowosielski, M.Sc. RWTH Aachen — Implantologe, Praxis Mikrostomart Opole.
 
 **Hinweis:** Preise sind Richtwerte. Inhalte zu Informationszwecken.

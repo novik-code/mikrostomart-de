@@ -1,7 +1,7 @@
 ---
 title: 'Zahnimplantat-Material: Titan vs. Keramik (Zirkon) — was ist besser?'
 description: 'Titanimplantat oder Keramikimplantat (Zirkonoxid)? Vergleich von Stabilität, Ästhetik, Bioverträglichkeit, Langzeitdaten, Kosten und Indikationen. Für wen welches Material. Mikrostomart Opole, Polen.'
-pubDate: 2026-06-07
+pubDate: 2026-05-25
 category: zahnimplantate
 tags: [titan, keramik, zirkon, implantatmaterial, vergleich]
 draft: false
@@ -63,6 +63,6 @@ Ehrlich gesagt: bei beiden Materialien entscheiden **Diagnostik (CBCT), Planung,
 
 ---
 
-**Autor:** Dr. Marcin Nowosielski, M.Sc. RWTH Aachen — Implantologe, Praxis Mikrostomart Opole.
+**Autor:** Marcin Nowosielski, M.Sc. RWTH Aachen — Zahnarzt. [Über uns →](/ueber-uns)
 
 **Hinweis:** Eignung ergibt sich aus individueller Diagnostik. Inhalte zu Informationszwecken.

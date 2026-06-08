@@ -1,7 +1,7 @@
 ---
 title: 'Sofortimplantation — Implantat direkt nach der Zahnentfernung'
 description: 'Sofortimplantation: Implantat direkt nach Zahnentfernung statt monatelang warten. Vorteile, Voraussetzungen, Ablauf, für wen geeignet. Spart Zeit und eine Reise. Mikrostomart Opole.'
-pubDate: 2026-05-15
+pubDate: 2026-03-18
 category: zahnimplantate
 tags: [sofortimplantation, implantat, zahnentfernung, ablauf]
 draft: false
@@ -75,6 +75,6 @@ Die Sofortimplantation kann Zeit, Termine und für Auslandspatienten oft eine Re
 
 ---
 
-**Autor:** Dr. Marcin Nowosielski, M.Sc. RWTH Aachen — Implantologe, Praxis Mikrostomart Opole.
+**Autor:** Marcin Nowosielski, M.Sc. RWTH Aachen — Zahnarzt, Praxis [Mikrostomart](https://mikrostomart.pl) in Opole.
 
 **Hinweis:** Eignung ergibt sich aus individueller Diagnostik (CBCT). Inhalte zu Informationszwecken.

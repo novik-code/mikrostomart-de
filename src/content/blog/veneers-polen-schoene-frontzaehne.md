@@ -1,7 +1,7 @@
 ---
 title: 'Veneers in Polen — schöne Frontzähne zum fairen Preis'
 description: 'Veneers (Verblendschalen) in Polen: Ablauf, Haltbarkeit, Kosten vs. Deutschland. Für ein natürliches, harmonisches Lächeln. Auch als Smile-Makeover. Mikrostomart Opole.'
-pubDate: 2026-05-30
+pubDate: 2026-04-23
 category: behandlungen
 tags: [veneers, aesthetik, frontzaehne, smile-makeover]
 draft: false
@@ -72,6 +72,6 @@ Veneers sind die zahnschonende Lösung für ein schönes, natürliches Lächeln 
 
 ---
 
-**Autor:** Dr. Marcin Nowosielski, M.Sc. RWTH Aachen — Praxis Mikrostomart Opole.
+**Autor:** Marcin Nowosielski, M.Sc. RWTH Aachen — Endodontie & Implantologie, Praxis [Mikrostomart](https://mikrostomart.pl) in Opole.
 
 **Hinweis:** Eignung ergibt sich aus individueller Diagnostik. Inhalte zu Informationszwecken.

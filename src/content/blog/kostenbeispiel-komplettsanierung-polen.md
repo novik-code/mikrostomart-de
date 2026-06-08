@@ -1,7 +1,7 @@
 ---
 title: 'Kostenbeispiel: Was kostet eine komplette Zahnsanierung in Polen?'
 description: 'Konkretes Kostenbeispiel für eine komplette Zahnsanierung in Polen vs. Deutschland — mit Rechnung, Reisekosten und Ersparnis. So viel sparen DACH-Patienten wirklich. Mikrostomart Opole.'
-pubDate: 2026-05-24
+pubDate: 2026-04-10
 category: kosten
 tags: [kosten, kostenbeispiel, ersparnis, sanierung]
 draft: false
@@ -72,6 +72,6 @@ Eine komplette Sanierung kostet in Polen oft **rund die Hälfte** wie in Deutsch
 
 ---
 
-**Autor:** Dr. Marcin Nowosielski, M.Sc. RWTH Aachen — Praxis Mikrostomart Opole.
+**Über den Autor:** Marcin Nowosielski (Zahnarzt), M.Sc. RWTH Aachen — Implantologie & Vollbogen-Versorgung.
 
 **Hinweis:** Beispielwerte zur Orientierung; verbindliche Preise nur nach individuellem Befund. Inhalte zu Informationszwecken.

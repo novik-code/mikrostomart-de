@@ -1,7 +1,7 @@
 ---
 title: 'Ablauf einer Zahnbehandlung in Polen — von der Anfrage bis zur Nachsorge'
 description: 'Schritt für Schritt: wie eine Zahnbehandlung in Polen abläuft — erste Anfrage mit Röntgenbild, Behandlungsplan auf Deutsch, Anreise, Behandlung, Rückreise und Nachsorge. Planungssicherheit für DACH-Patienten. Mikrostomart Opole.'
-pubDate: 2026-06-08
+pubDate: 2026-06-01
 category: zahntourismus
 tags: [ablauf, planung, zahntourismus, anreise, nachsorge]
 draft: false
@@ -75,6 +75,6 @@ Der Ablauf ist planbar und transparent: **Anfrage mit Röntgenbild → schriftli
 
 ---
 
-**Autor:** Dr. Marcin Nowosielski, M.Sc. RWTH Aachen — Praxis Mikrostomart Opole.
+**Autor:** ZA Marcin Nowosielski, M.Sc. RWTH Aachen — Implantologie & Vollbogen-Versorgung, Praxis Mikrostomart Opole.
 
 **Hinweis:** Reisezeiten und Reiseanzahl sind Richtwerte; der konkrete Plan ergibt sich aus dem Befund. Inhalte zu Informationszwecken.

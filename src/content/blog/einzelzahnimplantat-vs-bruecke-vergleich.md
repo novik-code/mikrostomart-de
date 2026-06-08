@@ -1,7 +1,7 @@
 ---
 title: 'Einzelzahnimplantat vs. Brücke — was ist die bessere Wahl?'
 description: 'Einzelzahnimplantat oder Brücke bei einer Zahnlücke? Vergleich von Schonung der Nachbarzähne, Knochenerhalt, Haltbarkeit und Kosten. Warum das Implantat meist überlegen ist. Mikrostomart Opole.'
-pubDate: 2026-06-05
+pubDate: 2026-05-15
 category: zahnimplantate
 tags: [einzelzahnimplantat, bruecke, vergleich, zahnluecke]
 draft: false
@@ -53,6 +53,6 @@ Bei einer Einzellücke mit gesunden Nachbarzähnen und gutem Knochen ist das **I
 
 ---
 
-**Autor:** Dr. Marcin Nowosielski, M.Sc. RWTH Aachen — Implantologe, Praxis Mikrostomart Opole.
+**Autor:** ZA Marcin Nowosielski, M.Sc. RWTH Aachen — Implantologie & Vollbogen-Versorgung.
 
 **Hinweis:** Eignung ergibt sich aus individueller Diagnostik (CBCT). Inhalte zu Informationszwecken.

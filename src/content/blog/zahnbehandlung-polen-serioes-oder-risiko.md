@@ -1,7 +1,7 @@
 ---
 title: 'Zahnbehandlung in Polen — seriös oder Risiko? Was Sie wissen müssen'
 description: 'Ist Zahntourismus in Polen seriös oder riskant? Ehrliche Antworten: Qualität, Materialien, Garantie, Sprache, worauf Sie achten müssen. Leitfaden für Patienten aus Deutschland.'
-pubDate: 2026-06-03
+pubDate: 2026-05-05
 category: ratgeber
 tags: [zahntourismus, sicherheit, qualitaet, ratgeber]
 draft: false
@@ -88,6 +88,6 @@ Zahnbehandlung in Polen ist **seriös — wenn Sie die richtige Praxis wählen**
 
 ---
 
-**Autor:** Dr. Marcin Nowosielski, M.Sc. RWTH Aachen — Zahnarzt & Implantologe, Praxis Mikrostomart Opole. Spricht fließend Deutsch.
+**Über den Autor:** Marcin Nowosielski (Zahnarzt), M.Sc. RWTH Aachen — Zahnarzt.
 
 **Hinweis:** Inhalte zu Informationszwecken, ersetzen keine zahnärztliche Beratung.

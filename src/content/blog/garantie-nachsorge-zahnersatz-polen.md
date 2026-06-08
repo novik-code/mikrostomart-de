@@ -1,7 +1,7 @@
 ---
 title: 'Garantie & Nachsorge: Was, wenn nach der Rückreise ein Problem auftritt?'
 description: 'Garantie auf Zahnersatz aus Polen, Nachsorge nach der Rückreise, was bei Komplikationen gilt. Die ehrlichen Antworten auf die häufigste Sorge von Zahntourismus-Patienten. Mikrostomart Opole.'
-pubDate: 2026-05-09
+pubDate: 2026-03-10
 category: ratgeber
 tags: [garantie, nachsorge, zahntourismus, sicherheit]
 draft: false
@@ -58,6 +58,6 @@ Garantie und Nachsorge sind klar geregelt: schriftliche Gewährleistung, kostenf
 
 ---
 
-**Autor:** Dr. Marcin Nowosielski, M.Sc. RWTH Aachen — Praxis Mikrostomart Opole.
+**Autor:** ZA Marcin Nowosielski, M.Sc. RWTH Aachen — Endodontie & Implantologie, Praxis Mikrostomart Opole.
 
 **Hinweis:** Garantiebedingungen ergeben sich aus dem individuellen Behandlungsvertrag. Inhalte zu Informationszwecken.

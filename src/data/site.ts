@@ -7,7 +7,7 @@ export const site = {
   shortTitle: 'Mikrostomart — Zahnarzt Polen',
   description:
     'Deutschsprachiger Zahnarzt in Polen (Opole) — Zahnimplantate, All-on-4, Zahnersatz zu polnischen Preisen, westliche Qualität. Behandlung bei lek. dent. Marcin Nowosielski, M.Sc. RWTH Aachen. Bis zu 60% sparen, nur ~1,5 Std. von der deutschen Grenze.',
-  ogImage: '/og-default.svg',
+  ogImage: '/og-default.png',
   locale: 'de-DE',
   // Autor / behandelnder Zahnarzt — Marcin Nowosielski (kanonische ID auf nowosielski.pl)
   author: {
@@ -69,11 +69,22 @@ export const site = {
     'Zahnarzt Opole',
     'Implantate Polen Preise',
   ],
-  // Sprachversionen (hreflang)
-  alternates: {
-    de: 'https://mikrostomart.de',
-    en: 'https://mikrostomart.com',
-    pl: 'https://mikrostomart.pl',
+  // hreflang — odpowiedniki językowe per-URL (tylko strony z realnym odpowiednikiem).
+  // pl-hub (mikrostomart.pl) pominięty: zewnętrzny, brak gwarancji reciprocity.
+  i18n: {
+    self: 'de',
+    otherLang: 'en',
+    otherBase: 'https://mikrostomart.com',
+    // ścieżka na tej domenie -> odpowiednik na mikrostomart.com
+    pairs: {
+      '/': '/',
+      '/zahnimplantate-polen': '/dental-implants-poland',
+      '/all-on-4-polen': '/all-on-4-poland',
+      '/zahnersatz-kosten-polen': '/dental-treatment-cost-poland',
+      '/zahntourismus-opole': '/dental-tourism-poland',
+      '/ueber-uns': '/about-us',
+      '/blog': '/blog',
+    },
   },
   lang: 'de',
 };

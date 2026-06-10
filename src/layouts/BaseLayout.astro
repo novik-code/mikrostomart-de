@@ -122,20 +122,17 @@ const xDefaultUrl = i18n.self === 'en' ? canonicalUrl : otherUrl;
 
     <footer class="site-footer">
       <div class="container">
+        <div class="footer-intro">
+          <h3>Mikrostomart — Zahnarzt in Polen</h3>
+          <p>
+            Deutschsprachige Zahnbehandlung in Opole (Polen) — Zahnimplantate, All-on-4,
+            Zahnersatz zu polnischen Preisen mit westlicher Qualität. Behandlung durch
+            <strong>{site.author.honorificPrefix} {site.author.name}, {site.author.honorificSuffix}</strong> —
+            M.Sc. RWTH Aachen, spricht fließend Deutsch. Nur ca. 1,5 Std. von der deutschen
+            Grenze, bis zu 60 % Ersparnis gegenüber Deutschland.
+          </p>
+        </div>
         <div class="footer-grid">
-          <div>
-            <h3>Mikrostomart — Zahnarzt in Polen</h3>
-            <p>
-              Deutschsprachige Zahnbehandlung in Opole (Polen) — Zahnimplantate, All-on-4,
-              Zahnersatz zu polnischen Preisen mit westlicher Qualität. Behandlung durch
-              <strong>{site.author.honorificPrefix} {site.author.name}, {site.author.honorificSuffix}</strong> —
-              M.Sc. RWTH Aachen, spricht fließend Deutsch.
-            </p>
-            <p>
-              Nur ca. 1,5 Std. von der deutschen Grenze. Bis zu 60 % Ersparnis gegenüber
-              Deutschland.
-            </p>
-          </div>
           <div>
             <h3>Leistungen</h3>
             <ul>
@@ -294,6 +291,13 @@ const xDefaultUrl = i18n.self === 'en' ? canonicalUrl : otherUrl;
       .footer-grid ul li { margin-bottom: 0.5rem; font-size: 0.9375rem; }
       .footer-grid p { font-size: 0.9375rem; }
       .footer-grid address { font-style: normal; font-size: 0.9375rem; line-height: 1.7; }
+      .footer-intro {
+        max-width: 48rem;
+        margin-bottom: 2.5rem;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid rgba(255,255,255,0.12);
+      }
+      .footer-intro p { font-size: 0.9375rem; margin: 0; }
       .disclaimer { font-size: 0.8125rem; background: rgba(255,255,255,0.05); padding: 1rem; border-left: 3px solid var(--color-accent); margin: 1rem 0; }
       .copy { font-size: 0.75rem; color: #8ba0ad; text-align: center; margin: 0; }
 
